@@ -62,6 +62,19 @@ async function main() {
     });
     var q = result.value;
     console.log(q);
+
+    // 文字列の hex dump のコード
+    //const encoder = new TextEncoder();
+    //const buf = encoder.encode(q);
+    //const hex = [...buf].map(b => b.toString(16).padStart(2, '0')).join('');
+    //console.log(hex); // 48656c6c6f20576f726c64
+
+    // 先頭の空白文字を除去する
+    // MacBook Pro/iPhone で音声入力をすると何故か先頭に空白が挿入される
+    while (q.startsWith(' ')) {
+      q = q.slice(1);
+    }
+    
     if (bucket.length > 0) {
       var sq = bucket.shift();
       console.log(sq);
