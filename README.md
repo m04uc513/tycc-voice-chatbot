@@ -18,7 +18,8 @@ In case of any discrepancies between the following translation and the original 
 
 <BR><BR>
 
-This web application is a voice chatbot developed and operated by **還暦めがねじぃじ**（[@m04uc513](https://twitter.com/m04uc513)）. It uses the public resources of the character "TukuYomiChan" that is currently gaining attention in Japan. For more information about "TukuYomiChan," please see here.
+This web application is a voice chatbot developed and operated by **還暦めがねじぃじ**（[@m04uc513](https://twitter.com/m04uc513)）. It uses the public resources of the character "TukuYomiChan" that is currently gaining attention in Japan. For more information about "TukuYomiChan," please see 
+[here](https://github.com/m04uc513/tycc-voice-chatbot/blob/main/README.md#TUKUYOMICHAN).
 
 <BR>
 
