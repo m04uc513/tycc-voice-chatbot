@@ -55,7 +55,7 @@ So, please look forward to six months later...
 <BR>
 
 ## About "TukuYomiChan"
-<A NAME="#TUKUYOMICHAN"></A>
+<A NAME="TUKUYOMICHAN"></A>
 The development of this chatbot utilizes the conversation text dataset and illustration materials provided by the free material character "TukuYomiChan" (© Rei Yumesaki).
 
 * [TukuYomiChan Official Website](https://tyc.rei-yumesaki.net/)

@@ -104,7 +104,7 @@ Twitter に告知のツィートを出しますので、
 <BR>
 
 ## 「つくよみちゃん」について
-<A NAME="#TUKUYOMICHAN"></A>
+<A NAME="TUKUYOMICHAN"></A>
 このチャットボットの開発には、フリー素材キャラクター「つくよみちゃん」（© Rei Yumesaki）が無料公開している会話テキストデータセットとイラスト素材を使用しています。
 
 * [つくよみちゃん公式サイト](https://tyc.rei-yumesaki.net/)
