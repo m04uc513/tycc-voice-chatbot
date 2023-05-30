@@ -1,11 +1,10 @@
 # TukuYomiChan Chatbot Challenge
 
-```
 Unfortunately, this application only supports Japanese.
 However, if you like Japanese anime and are studying Japanese, it may be helpful.
 
-Since this is a machine translation, there is a possibility of errors in the translation. In case of any discrepancies between the following translation and the original text of the Terms of Service (Japanese version), the original text will take precedence.
-```
+:information_source: Since this is a machine translation, there is a possibility of errors in the translation. 
+In case of any discrepancies between the following translation and the original text of the Terms of Service (Japanese version), the original text will take precedence.
 
 <BR>
 
