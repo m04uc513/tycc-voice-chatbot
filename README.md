@@ -1,4 +1,3 @@
-
 # TukuYomiChan Chatbot Challenge
 
 ```
