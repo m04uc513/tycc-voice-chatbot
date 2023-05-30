@@ -3,7 +3,7 @@
 
 <BR>
 
-[英語版](https://github.com/m04uc513/tycc-voice-chatbot/blob/main/readme.md)
+[英語版](https://github.com/m04uc513/tycc-voice-chatbot/blob/main/README.md)
 
 <BR>
 

@@ -9,7 +9,7 @@ Since this is a machine translation, there is a possibility of errors in the tra
 
 <BR>
 
-[Japanese](https://github.com/m04uc513/tycc-voice-chatbot/blob/main/readme-ja.md)
+[Japanese](https://github.com/m04uc513/tycc-voice-chatbot/blob/main/README-ja.md)
 
 <BR>
 
