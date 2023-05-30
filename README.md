@@ -1,9 +1,3 @@
-<style>
-.container {
-  text-align: center;
-}
-</style>
-m04uc513/tycc-voice-chatbot
 
 # TukuYomiChan Chatbot Challenge
 
@@ -16,7 +10,7 @@ Since this is a machine translation, there is a possibility of errors in the tra
 
 <BR>
 
-[Japanese](/readme-ja.md)
+[Japanese](https://github.com/m04uc513/tycc-voice-chatbot/blob/main/readme-ja.md)
 
 <BR>
 

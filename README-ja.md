@@ -1,15 +1,11 @@
-<style>
-.container {
-  text-align: center;
-}
-</style>
-
-m04uc513/tycc-voice-chatbot
-
 # つくよみちゃん チャットボット チャレンジ
 ## TukuYomiChan Chatbot Challenge
 
-<BR><BR>
+<BR>
+
+[英語版](https://github.com/m04uc513/tycc-voice-chatbot/blob/main/readme.md)
+
+<BR>
 
 <div class="container">
   <img src="./public/tsukuyomi_icon.png" title="つくよみちゃん">
