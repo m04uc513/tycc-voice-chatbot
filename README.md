@@ -16,6 +16,10 @@ Since this is a machine translation, there is a possibility of errors in the tra
 
 <BR>
 
+[Japanese](/readme-ja.md)
+
+<BR>
+
 <div class="container">
   <img src="./public/tsukuyomi_icon.png" title="TukuYomiChan">
 </div>
