@@ -6,7 +6,8 @@ const fs = require('fs');
 const express = require("express");
 const bodyParser = require("body-parser");
 
-var raw = fs.readFileSync('config/cache.json');
+//var raw = fs.readFileSync('config/cache.json');
+var raw = fs.readFileSync('config/aac.json');
 var cache = JSON.parse(raw);
 const map = new Map();
 
@@ -38,10 +39,12 @@ app.post("/texttospeach", async (req, res) => {
   const text = req.body.text;
   const id = parseInt(req.body.id);
   var elm = map.get(text);
-  const wavBuffer = fs.readFileSync(elm.wav);
+  //const wavBuffer = fs.readFileSync(elm.wav);
+  const wavBuffer = fs.readFileSync(elm.aac);
   res.set({
-    "Content-Type": "audio/wav",
-    "Content-Disposition": 'attachment; filename="audio.wav"',
+  //"Content-Type": "audio/wav",
+    "Content-Type": "audio/aac",
+    "Content-Disposition": 'attachment; filename="audio.aac"',
   });
   await res.send(wavBuffer);
 });
