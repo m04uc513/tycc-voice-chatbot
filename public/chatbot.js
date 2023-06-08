@@ -7,10 +7,17 @@ async function playAudio(text) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text, id })
   });
-  const blob = await response.blob();
-  const audioUrl = URL.createObjectURL(blob);
-  const audio = new Audio(audioUrl);
-  audio.play();
+  //const blob = await response.blob();
+  //const audioUrl = URL.createObjectURL(blob);
+  //const audio = new Audio(audioUrl);
+  //audio.play();
+  const arrayBuffer = await response.arrayBuffer();
+  const audioContext = new AudioContext();
+  const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+  const source = audioContext.createBufferSource();
+  source.buffer = audioBuffer;
+  source.connect(audioContext.destination);
+  source.start(0);
 }
 
 async function fetchRules() {
