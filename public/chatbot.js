@@ -53,13 +53,10 @@ async function main() {
   var question = await fetchQuestion();
   var bucket = [];
   while (true) {
-    var ask;
-    if (bucket.length == 0) {
-      var n = Math.floor(question.length*Math.random());
-      ask = question[n][0];
-    } else {
-      ask = bucket[0];
-    }
+    var n = Math.floor(question.length*Math.random());
+    var ask = question[n][0];
+    console.log(ask);
+
     var result = await botui.action.text({
       delay: 1000,
       action: {
@@ -67,35 +64,17 @@ async function main() {
         placeholder: ask  //'入力してください'
       }
     });
+
     var q = result.value;
-    console.log(q);
-    
-    //// hex dump
-    //const encoder = new TextEncoder();
-    //const buf = encoder.encode(q);
-    //const hex = [...buf].map(b => b.toString(16).padStart(2, '0')).join('');
-    //console.log(hex); // 48656c6c6f20576f726c64
     while (q.startsWith(' ')) {
       q = q.slice(1);
     }
+    console.log(q);
 
-    if (bucket.length > 0) {
-      var sq = bucket.shift();
-      console.log(sq);
-      var sa = bucket.shift();
-      console.log(sa);
-      if (q == sq) {
-        console.log(sa);
-        botui.message.bot(sa);
-        await playAudio(sa);
-      }
-    } else {
-      bucket = getAnswer(map, q);
-      var a = bucket.shift();
-      console.log(a);
-      botui.message.bot(a);
-      await playAudio(a);
-    }
+    bucket = getAnswer(map, q);
+    console.log(bucket[0]);
+    botui.message.bot(bucket[0]);
+    await playAudio(bucket[0]);
   }
 }
 
